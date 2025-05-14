@@ -10,15 +10,6 @@ export const Header = () => {
     <header className="header">
       <div className="container header-content">
         <h1 className="logo">Portfolio</h1>
-        
-        <div className="header-right">
-          <ThemeToggle />
-          
-          <button className="menu-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
-        </div>
-        
         <nav className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
           <a href="#home" className="nav-link">Home</a>
           <a href="#about" className="nav-link">About</a>
@@ -26,8 +17,15 @@ export const Header = () => {
           <a href="#projects" className="nav-link">Projects</a>
           <a href="#certifications" className="nav-link">Certifications</a>
           <a href="#contact" className="nav-link">Contact</a>
-        </nav>
-      </div>
+        
+
+          <ThemeToggle />
+          
+          <button className="menu-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+          </nav>
+          </div>
     </header>
   );
 };
