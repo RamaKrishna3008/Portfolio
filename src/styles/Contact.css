@@ -19,6 +19,7 @@
 .info-item {
   display: flex;
   align-items: flex-start;
+  color: var(--foreground);
   gap: 1rem;
 }
 
