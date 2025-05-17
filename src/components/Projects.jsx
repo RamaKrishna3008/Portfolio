@@ -13,13 +13,13 @@ export const Projects = () => {
       githubLink: "https://github.com/yourusername/project1"
     },
     {
-      title: "Ecommerce Project with Sprinboot and JSP",
+      title: "Ecommerce Project with Springboot and JSP",
       description: "An eCommerce application built with Spring Boot and JSP for seamless online shopping experiences.",
       technologies: ["Springboot", "Java", "JSP", "MySQL"],
       githubLink: "https://github.com/RamaKrishna3008/Ecommerce_JSP"
     },
     {
-      title: "Placement Management System",
+      title: "Placement And Activity Management System",
       description: "A Placement Management System developed using Java EE beans and JSF to streamline student placement process.",
       technologies: ["Java EE", "Servlets", "JSF","MySQL"],
       githubLink: "https://github.com/yourusername/project3"
