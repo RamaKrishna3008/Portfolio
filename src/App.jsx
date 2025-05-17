@@ -7,6 +7,7 @@ import { Contact } from './components/Contact';
 import './styles/global.css';
 import { Skills } from './components/Skills.jsx';
 import { About } from './components/About.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Projects />
       <Certifications />
       <Contact />
+      <Footer/>
     </div>
   );
 }
