@@ -17,7 +17,7 @@ export const Projects = () => {
       title: "Enterprise Resource Planning For a University",
       description: "A comprehensive ERP system developed using Spring Boot, designed to manage student information, academics, and administration efficiently. Integrated with Razorpay for secure fee payments. It ensures smooth operations for universities by providing different modules . ",
       technologies: ["Springboot", "Java", "JSP", "MySQL"],
-      githubLink: "https://github.com/yourusername/project1"
+      githubLink: "https://github.com/RamaKrishna3008/ERPProject2125"
     },
     {
       title: "Chat App",
