@@ -9,9 +9,9 @@ export const Projects = () => {
    
     {
       title: "Movie Ticket Booking Platform",
-      description: "MovieTicketBookingPlatform is a full-stack web application for booking movie tickets, featuring role-based access for users, theatre owners, and admins. It integrates Razorpay for secure payments and uses AWS S3 Client to manage and store multimedia assets like posters and banners, ensuring a seamless and scalable movie booking experience.",
-      technologies: ["Springboot", "Java", "React", "MySQL"],
-      githubLink: "https://github.com/RamaKrishna3008/MovieTicketBookingPlatform"
+      description: "MovieTicketBookingPlatform is a full‑stack built with Spring Boot, React, Razorpay, and AWS S3. It supports three roles Admin, Theatre Owner, and User  and now includes Cinemate AI powered by Google Gemini for movie discovery, support, and smart search.",
+      technologies: ["Springboot", "Java", "React", "MySQL","AWS S3 Bucket","Gemini AI","RazorPay"],
+      githubLink: "https://github.com/RamaKrishna3008/MovieTicketBookingPlatform-Backend"
     },
      {
       title: "Enterprise Resource Planning For a University",
